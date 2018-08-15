@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+header h3 {
+    color: violet;
+}
+
+aside {
+    display: inline-block;
+    width: 200px;
+    height: 410px;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px solid darkgray;
+}
+
+main {
+    display: inline-block;
+    width: 600px;
+    height: 470px;
+    padding: 0 30px;
+}
+
+main h1 {
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+}
+
+main p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.imagem_banner {
+    margin-top: 20px;
+}
