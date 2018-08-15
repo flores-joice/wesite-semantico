@@ -3,20 +3,35 @@ body {
     margin: auto;
     text-align: center;
     font-family: sans-serif;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
-header h3 {
-    color: violet;
+.header__titulo {
+    color: rgb(197, 46, 197);
+    border-bottom: 1px solid rgb(197, 46, 197);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
 }
 
-aside {
+.autora {
     display: inline-block;
     width: 200px;
     height: 410px;
     vertical-align: top;
     padding: 20px;
     border: 1px solid darkgray;
+    text-align: center;
+}
+
+.autora__titulo {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.autora__ocupacao {
+    margin: 0;
 }
 
 main {
@@ -24,19 +39,26 @@ main {
     width: 600px;
     height: 470px;
     padding: 0 30px;
+    color: #4a4a4a;
 }
 
-main h1 {
+.artigo__titulo {
     font-size: 40px;
     text-align: left;
     margin: 0;
 }
 
-main p {
+.artigo__paragrafo {
     font-size: 24px;
     text-align: justify;
 }
 
-.imagem_banner {
+.artigo__imagem {
     margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(197, 46, 197);
+    color: white;
+    padding: 20px;
 }
